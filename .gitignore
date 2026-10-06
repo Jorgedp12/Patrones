@@ -11,7 +11,11 @@ target/
 .settings/
 
 # VS Code (Ignora todo excepto configuraciones útiles del proyecto)
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # Operating system files
 .DS_Store
